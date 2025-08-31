@@ -5,16 +5,20 @@ Simple calculator program with functions and loops.
 def add(a, b):
     return a + b
 
+
 def subtract(a, b):
     return a - b
 
+
 def multiply(a, b):
-  return a * b
+    return a * b
+
 
 def divide(a, b):
     if b == 0:
         return "Error: Division by zero"
     return a / b
+
 
 def main():
     print("Welcome to Simple Calculator")
@@ -22,10 +26,11 @@ def main():
 
     for a, b in numbers:
         print(f"\nNumbers: {a}, {b}")
-        print( add(a, b))
+        print(add(a, b))
         print(subtract(a, b))
-        print( multiply(a, b))
-        print( divide(a, b))
+        print(multiply(a, b))
+        print(divide(a, b))
+
 
 if __name__ == "__main__":
     main()
